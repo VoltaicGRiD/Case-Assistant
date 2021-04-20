@@ -1,0 +1,38 @@
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\Case Assistant.exe.config
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\Case Assistant.exe
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\Case Assistant.pdb
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\Xceed.Wpf.AvalonDock.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\Xceed.Wpf.DataGrid.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\Interop.ACTIVEXLib.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\Case Assistant.csproj.ResolveComReference.cache
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\MainWindow.baml
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\CallPanel.g.cs
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\CaseStarter.g.cs
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\MainWindow.g.cs
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\App.g.cs
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\Case Assistant_MarkupCompile.cache
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\Case Assistant_MarkupCompile.lref
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\App.baml
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\CallPanel.baml
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\CaseStarter.baml
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\Case Assistant.g.resources
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\Case_Assistant.Properties.Resources.resources
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\Case Assistant.csproj.GenerateResource.cache
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\Case Assistant.csproj.CoreCompileInputs.cache
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\Case Assistant.csproj.CopyComplete
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\Case Assistant.exe
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Release\Case Assistant.pdb

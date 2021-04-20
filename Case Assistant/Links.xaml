@@ -1,0 +1,29 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Case_Assistant"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" x:Class="Case_Assistant.Links"
+             mc:Ignorable="d" 
+             d:DesignHeight="237" d:DesignWidth="605">
+    <Grid Background="White">
+
+        <GroupBox Header="Links" HorizontalAlignment="Left" Height="137" Margin="10,10,0,0" VerticalAlignment="Top" Width="161">
+            <Grid HorizontalAlignment="Left" Height="127" VerticalAlignment="Top" Width="151" Margin="0,0,-2,-12">
+                <Button Content="Process Breakdown" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="127" Click="PBClick"/>
+                <Button Content="Service Desk" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="127" Click="SDClick"/>
+                <Button Content="Dynamics Crit Portal" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="127" Click="PortalClick"/>
+                <Button Content="Teams RI Board" HorizontalAlignment="Left" Margin="10,85,0,0" VerticalAlignment="Top" Width="127" Click="TeamsClick"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Templates" HorizontalAlignment="Left" Height="109" Margin="176,10,0,0" VerticalAlignment="Top" Width="161">
+            <Grid HorizontalAlignment="Left" Height="85" VerticalAlignment="Top" Width="151" Margin="0,0,-2,0">
+                <Button Content="Triage Template" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="127" Click="TriageClick"/>
+                <Button Content="Skype Intro" HorizontalAlignment="Left" Margin="10,58,0,0" VerticalAlignment="Top" Width="127" Click="IntroClick"/>
+                <TextBox x:Name="CSMNameBox" HorizontalAlignment="Left" Height="23" Margin="10,35,0,0" TextWrapping="Wrap" Text="Their First Name" VerticalAlignment="Top" Width="127" GotFocus="ClearText"/>
+            </Grid>
+        </GroupBox>
+
+    </Grid>
+</UserControl>

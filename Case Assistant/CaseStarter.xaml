@@ -1,0 +1,22 @@
+﻿<Window x:Class="Case_Assistant.CaseStarter"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Case_Assistant"
+        mc:Ignorable="d"
+        Title="CaseStarter" Height="236.806" Width="310.207">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="New Case" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" Text="Type or paste SR number:" VerticalAlignment="Top"/>
+        <TextBox x:Name="NewSR" HorizontalAlignment="Left" Height="23" Margin="10,47,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="272" TabIndex="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,76,0,0" TextWrapping="Wrap" Text="Type or paste business name:" VerticalAlignment="Top"/>
+        <TextBox x:Name="NewName" HorizontalAlignment="Left" Height="23" Margin="10,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="272" KeyDown="BusinessNameEnter" TabIndex="2"/>
+        <Button Content="Create" HorizontalAlignment="Left" Margin="207,165,0,0" VerticalAlignment="Top" Width="75" Click="CreateClicked" TabIndex="4"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,122,0,0" TextWrapping="Wrap" Text="OR, if using CMET Helper, paste SR Title" VerticalAlignment="Top"/>
+        <TextBox x:Name="CMETBox" HorizontalAlignment="Left" Height="23" Margin="10,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="272" KeyDown="BusinessNameEnter" TabIndex="3"/>
+        <Separator HorizontalAlignment="Left" Height="8" Margin="0,115,0,0" VerticalAlignment="Top" Width="302"/>
+
+    </Grid>
+</Window>

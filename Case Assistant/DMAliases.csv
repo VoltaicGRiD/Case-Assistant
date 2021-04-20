@@ -1,0 +1,74 @@
+Skype for Business Server 2015,uclyncdm
+Dynamics CRM Online,dyndm
+Exchange Online,exchonlinedm
+Outlook 2016,exchonlinedm
+Azure Kubernetes Service,platgldm; wadm
+SQL Svr 2014 Enterprise,platgldm; wadm
+Sys Ctr Config Mgr 1706,scsdm
+Exchange Server 2013 Enterprise,exchonpremdm
+Dynamics 365 Fin&Ops Ent,dyndm
+Azure Virtual Machine - Windows,wadm; platgldm
+Exchange Svr Enterprise 2010 AL,exchonpremdm
+Windows Svr 2012 R2 Standard,platgldm
+Exchange Server 2013 Enterprise,exchonpremdm
+Dynamics 365 Cstmr Engmt Ent-CRM,dyndm
+SQL Svr 2012 PDW (APS),sqldm
+SharePoint Online,offdm
+Sys Ctr Config Mgr 1710,scsdm
+Dynamics F&O Concierge,dyndm
+Azure Service Fabric,aztechim
+SQL Svr 2017 Enterprise Windows,sqldm
+Azure Web App (Windows),platgldm
+Azure SQL DB,sqldm
+Windows Svr 2016 Standard,platgldm
+Windows Svr 2012 Standard,platgldm
+Microsoft Intune,mobsuppodww
+SQL Svr 2016 Enterprise Core,sqldm
+SharePoint Server 2013,offdm
+Lync Online,uclyncdm
+Windows Svr 2016 Standard,platgldm
+Azure HDInsight Service,sqldm; hadoopsupport
+Sys Center Config Mgr 2007 R2 AL,scsdm
+Azure Cosmos DB,sqldm
+Office 365 ProPlus,offdm
+Azure Virtual Networks,wadm; platgldm
+Exchange Server 2013 Enterprise,exchonpremdm
+SharePoint Online,offdm
+Azure Firewall,aztechim
+Windows 7 Enterprise AL,platgldm
+SharePoint Server 2013,offdm
+Windows Svr 2012 R2 Standard,platgldm
+Office 365 User & Domain Mgmt,offdm
+Windows Svr 2016 Standard,platgldm
+Azure AD,platgldm
+Azure File Storage,aztechim
+Sys Ctr Config Mgr 1802,scsdm
+Windows Svr 2016 Datacenter,platgldm
+WSUS - All versions,platgldm
+Windows 10 Enterprise,platgldm
+Skype for Business Online,uclyncdm
+Azure StorSimple 8000 Series,SSSuptteam
+Identity Mgr 2016,secusdm
+Exchange Server Enterprise 2016,exchonpremdm
+Azure Stream Analytics,aztechim
+SQL Svr 2012 Enterprise EN,sqldm
+Dynamics AX 2012 R3,dyndm
+Windows Svr 2008 Ent R2 AL,platgldm
+Windows Svr 2012 Datacenter,
+SharePoint Server 2016,offdm
+Azure Relay,aztechim
+Azure Data Lake Storage Gen1,aztechim
+Azure Data Factory,aztechim
+SAP HANA Large Instance,
+Azure ExpressRoute,aztechim
+Azure AD Directory & Object Mgmt,
+Azure Security Center,
+Azure API Management,aztechim
+Azure Load Balancer,aztechim
+Exchange Online Protection,exchonlinedm
+OneDrive for Business,offdm
+Windows 7 Enterprise AL,platgldm
+Azure VPN Gateway,aztechim
+Azure Bot Service,aztechim
+Windows Svr 2008 Std R2 AL,platgldm
+Lync Online,uclyncdm

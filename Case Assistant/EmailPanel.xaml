@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="Case_Assistant.EmailPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Case_Assistant"
+             mc:Ignorable="d" 
+             d:DesignHeight="237" d:DesignWidth="605">
+    <Grid Background="White">
+        <GroupBox Header="Type" HorizontalAlignment="Left" Height="217" Margin="10,10,0,0" VerticalAlignment="Top" Width="148">
+            <Grid x:Name="TypeGrid" HorizontalAlignment="Left" Height="197" VerticalAlignment="Top" Width="138" Margin="0,10,-2,-12">
+                <RadioButton Content="Update from CO" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <RadioButton Content="Strike 1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,20,0,0"/>
+                <RadioButton Content="Strike 2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,40,0,0"/>
+                <RadioButton Content="BI Intro" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,60,0,0"/>
+                <RadioButton Content="Triage Questions" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,80,0,0"/>
+                <RadioButton Content="Lowering Visibility" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,100,0,0"/>
+                <RadioButton Content="Archiving Visibility" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,120,0,0"/>
+                <RadioButton Content="Other" HorizontalAlignment="Left" Margin="0,140,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="TypeOtherBox" HorizontalAlignment="Left" Height="20" Margin="0,160,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138"/>
+            </Grid>
+        </GroupBox>
+        <Button Content="Copy and Save to Comms" HorizontalAlignment="Left" Margin="447,207,0,0" VerticalAlignment="Top" Width="148" Click="SaveInternalClick"/>
+        <TextBox x:Name="DescBox" HorizontalAlignment="Left" Height="176" Margin="323,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="272" KeyDown="DescBoxKeyDown"/>
+        <TextBlock HorizontalAlignment="Left" Margin="323,10,0,0" TextWrapping="Wrap" Text="Description" VerticalAlignment="Top"/>
+        <GroupBox Header="To" HorizontalAlignment="Left" Height="217" Margin="163,10,0,0" VerticalAlignment="Top" Width="155">
+            <Grid x:Name="ToGrid" HorizontalAlignment="Left" Height="193" Margin="0,7,0,-5" VerticalAlignment="Top" Width="146">
+                <RadioButton Content="Customer" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,3,0,0"/>
+                <RadioButton Content="Duty Managers" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,38,0,0"/>
+                <RadioButton Content="Current Cx Thread" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,18,0,0"/>
+                <RadioButton Content="Current RI Thread" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,53,0,0"/>
+                <RadioButton Content="Current Internal Thread" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,73,0,0"/>
+                <RadioButton Content="Other" HorizontalAlignment="Left" Margin="0,93,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="ToOtherBox" HorizontalAlignment="Left" Height="20" Margin="0,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142"/>
+            </Grid>
+        </GroupBox>
+
+    </Grid>
+</UserControl>

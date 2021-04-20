@@ -1,0 +1,14 @@
+C:\Users\dusti\source\repos\CMET Test\Collections Test\bin\Debug\Collections Test.exe.config
+C:\Users\dusti\source\repos\CMET Test\Collections Test\bin\Debug\Collections Test.exe
+C:\Users\dusti\source\repos\CMET Test\Collections Test\bin\Debug\Collections Test.pdb
+C:\Users\dusti\source\repos\CMET Test\Collections Test\obj\Debug\MainWindow.g.cs
+C:\Users\dusti\source\repos\CMET Test\Collections Test\obj\Debug\App.g.cs
+C:\Users\dusti\source\repos\CMET Test\Collections Test\obj\Debug\Collections Test_MarkupCompile.cache
+C:\Users\dusti\source\repos\CMET Test\Collections Test\obj\Debug\Collections Test_MarkupCompile.lref
+C:\Users\dusti\source\repos\CMET Test\Collections Test\obj\Debug\MainWindow.baml
+C:\Users\dusti\source\repos\CMET Test\Collections Test\obj\Debug\Collections Test.g.resources
+C:\Users\dusti\source\repos\CMET Test\Collections Test\obj\Debug\Collections_Test.Properties.Resources.resources
+C:\Users\dusti\source\repos\CMET Test\Collections Test\obj\Debug\Collections Test.csproj.GenerateResource.cache
+C:\Users\dusti\source\repos\CMET Test\Collections Test\obj\Debug\Collections Test.csproj.CoreCompileInputs.cache
+C:\Users\dusti\source\repos\CMET Test\Collections Test\obj\Debug\Collections Test.exe
+C:\Users\dusti\source\repos\CMET Test\Collections Test\obj\Debug\Collections Test.pdb

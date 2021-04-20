@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="WpfApp1.CallPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1"
+             mc:Ignorable="d" 
+             d:DesignHeight="237" d:DesignWidth="732">
+    <Grid Background="White" >
+        <GroupBox Header="Call Type" HorizontalAlignment="Left" Height="126" Margin="10,10,0,0" VerticalAlignment="Top" Width="112">
+            <Grid HorizontalAlignment="Left" Margin="0,0,-2,0" Width="102" Height="106" VerticalAlignment="Top">
+                <RadioButton Content="Intro Call" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,10,0,0"/>
+                <RadioButton Content="Update Call" HorizontalAlignment="Left" Margin="0,30,0,0" VerticalAlignment="Top"/>
+                <RadioButton Content="RI Update Call" HorizontalAlignment="Left" Margin="0,50,0,0" VerticalAlignment="Top"/>
+                <RadioButton Content="Triage Call" HorizontalAlignment="Left" Margin="0,70,0,0" VerticalAlignment="Top"/>
+                <RadioButton Content="Closure Call" HorizontalAlignment="Left" Margin="0,90,0,0" VerticalAlignment="Top"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Attributes" HorizontalAlignment="Left" Height="126" Margin="127,10,0,0" VerticalAlignment="Top" Width="135">
+            <Grid HorizontalAlignment="Left" Height="110" Margin="0,0,-2,-6" VerticalAlignment="Top" Width="125">
+                <RadioButton Content="Answered" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top"/>
+                <RadioButton Content="Left Voice-Mail" HorizontalAlignment="Left" Margin="0,30,0,0" VerticalAlignment="Top"/>
+                <RadioButton Content="Unable to leave VM" HorizontalAlignment="Left" Margin="0,50,0,0" VerticalAlignment="Top"/>
+                <RadioButton Content="Wrong Number" HorizontalAlignment="Left" Margin="0,70,0,0" VerticalAlignment="Top"/>
+                <CheckBox Content="Recorded" HorizontalAlignment="Left" Margin="0,89,0,0" VerticalAlignment="Top" Width="123" IsChecked="True"/>
+            </Grid>
+        </GroupBox>
+        <TextBox HorizontalAlignment="Left" Height="110" Margin="267,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="455"/>
+        <TextBlock HorizontalAlignment="Left" Margin="267,10,0,0" TextWrapping="Wrap" Text="Description of call" VerticalAlignment="Top"/>
+        <Button Content="Copy" HorizontalAlignment="Left" Margin="541,141,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Save to Internal" HorizontalAlignment="Left" Margin="621,141,0,0" VerticalAlignment="Top" Width="101"/>
+    </Grid>
+</UserControl>

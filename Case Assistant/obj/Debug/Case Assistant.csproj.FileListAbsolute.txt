@@ -1,0 +1,120 @@
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\MainWindow.baml
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\CallPanel.g.cs
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\MainWindow.g.cs
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\App.g.cs
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\Case Assistant_MarkupCompile.cache
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\Case Assistant_MarkupCompile.lref
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\Case Assistant.exe.config
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\Case Assistant.exe
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\Case Assistant.pdb
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\Interop.ACTIVEXLib.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.csproj.ResolveComReference.cache
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\CallPanel.baml
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.g.resources
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\Case_Assistant.Properties.Resources.resources
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.csproj.GenerateResource.cache
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.csproj.CoreCompileInputs.cache
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.csproj.CopyComplete
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.exe
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.pdb
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\CaseStarter.g.cs
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\CaseStarter.baml
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\App.baml
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\EmailPanel.g.cs
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\EmailPanel.baml
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\SkypePanel.g.cs
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\SkypePanel.baml
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.csprojAssemblyReference.cache
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\Case Assistant.exe.manifest
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\Case Assistant.application
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.exe.manifest
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.application
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\Links.g.cs
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\Links.baml
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\DMAliases.csv
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\LaborControl.g.cs
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\LaborControl.baml
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\CreateDataWindow.g.cs
+C:\Users\dusti\source\repos\CMET Test\Case Assistant\obj\Debug\CreateDataWindow.baml
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\DMAliases.csv
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\Case Assistant.exe.config
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\Case Assistant.exe.manifest
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\Case Assistant.application
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\Case Assistant.exe
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\Case Assistant.pdb
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.csprojAssemblyReference.cache
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\Interop.ACTIVEXLib.dll
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.csproj.ResolveComReference.cache
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\CallPanel.g.cs
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\CaseStarter.g.cs
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\CreateDataWindow.g.cs
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\EmailPanel.g.cs
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\LaborControl.g.cs
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\Links.g.cs
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\MainWindow.g.cs
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\SkypePanel.g.cs
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\App.g.cs
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\Case Assistant_MarkupCompile.cache
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\Case Assistant_MarkupCompile.lref
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\App.baml
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\CallPanel.baml
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\CaseStarter.baml
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\CreateDataWindow.baml
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\EmailPanel.baml
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\LaborControl.baml
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\Links.baml
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\MainWindow.baml
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\SkypePanel.baml
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.g.resources
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\Case_Assistant.Properties.Resources.resources
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.csproj.GenerateResource.cache
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.csproj.CoreCompileInputs.cache
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.exe.manifest
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.application
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.csproj.CopyComplete
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.exe
+C:\Users\dusti\source\old repos\CMET Test\Case Assistant\obj\Debug\Case Assistant.pdb

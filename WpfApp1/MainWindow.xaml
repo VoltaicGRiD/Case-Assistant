@@ -1,0 +1,164 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" 
+        mc:Ignorable="d"
+    x:Class="CMET_Test.MainWindow"
+        Title="MainWindow" Height="700" Width="1920" Closing="ClosingWindow">
+    <Grid Margin="0,0,0,0">
+        <ListBox x:Name="SRList" HorizontalAlignment="Left" Height="130" Margin="10,10,0,0" VerticalAlignment="Top" Width="142" SelectionChanged="SRListIndexChanged"/>
+        <Button Content="Add To Cases" HorizontalAlignment="Left" Margin="157,10,0,0" VerticalAlignment="Top" Width="90" Click="AddSRButton" Height="20"/>
+        <Button Content="Remove" HorizontalAlignment="Left" Margin="157,35,0,0" VerticalAlignment="Top" Width="90" Click="RemoveSRButton" Height="20"/>
+        <GroupBox Header="Email Templates" HorizontalAlignment="Left" Height="152" Margin="10,145,0,0" VerticalAlignment="Top" Width="142">
+            <Grid HorizontalAlignment="Left" Width="132" Height="132" VerticalAlignment="Top" Margin="0,0,-2,-2">
+                <Button Content="Business Impact" HorizontalAlignment="Left" VerticalAlignment="Top" Width="128" Margin="1,3,0,0" Click="BIEmailClick"/>
+                <Button Content="Triage Questions" HorizontalAlignment="Left" VerticalAlignment="Top" Width="128" Margin="1,28,0,0" Click="TriageEmailButton"/>
+                <Button Content="Lowering" HorizontalAlignment="Left" VerticalAlignment="Top" Width="128" Margin="1,53,0,0" Click="LoweringEmailClick"/>
+                <Button Content="Archiving" HorizontalAlignment="Left" VerticalAlignment="Top" Width="128" Margin="1,78,0,0" Click="ArchiveEmailClick"/>
+                <Button Content="Set Email Rules" HorizontalAlignment="Left" Margin="1,108,0,0" VerticalAlignment="Top" Width="128" Background="#FF83C7FF"/>
+            </Grid>
+        </GroupBox>
+        <TextBox x:Name="SRBox" HorizontalAlignment="Left" Height="26" Margin="306,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" FontSize="16" VerticalContentAlignment="Center" TextChanged="TextChangedSave"/>
+        <Label Content="SR #" HorizontalAlignment="Left" Margin="258,8,0,0" VerticalAlignment="Top" Height="31" Width="56" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label Content="Business Name" HorizontalAlignment="Left" Margin="497,8,0,0" VerticalAlignment="Top" Height="31" Width="132" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="BusNameBox" HorizontalAlignment="Left" Height="31" Margin="624,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" FontSize="16" VerticalContentAlignment="Center" Background="{x:Null}" TextChanged="TextChangedSave" />
+        <GroupBox Header="SR Info" HorizontalAlignment="Left" Height="237" Margin="157,60,0,0" VerticalAlignment="Top" Width="545">
+            <Grid HorizontalAlignment="Left" Height="218" Margin="0,0,-2,-3" VerticalAlignment="Top" Width="535">
+                <Label Content="TAM" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,0,0,0"/>
+                <Label Content="B-TAM" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,26,0,0"/>
+                <Label Content="Engi" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="13,52,0,0"/>
+                <Label Content="Alias" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="307,1,0,0" FontSize="10"/>
+                <Label Content="Alias" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="307,27,0,0" FontSize="10"/>
+                <Label Content="Alias" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="307,53,0,0" FontSize="10"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="46,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="261" VerticalContentAlignment="Center" TextChanged="TextChangedSave"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="46,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="261" VerticalContentAlignment="Center" TextChanged="TextChangedSave"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="46,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="261" VerticalContentAlignment="Center" TextChanged="TextChangedSave"/>
+                <TextBox x:Name="TAMAliasBox" HorizontalAlignment="Left" Height="23" Margin="335,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" VerticalContentAlignment="Center" TextChanged="TextChangedSave"/>
+                <TextBox x:Name="BTAMAliasBox" HorizontalAlignment="Left" Height="23" Margin="335,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" VerticalContentAlignment="Center" TextChanged="TextChangedSave"/>
+                <TextBox x:Name="EngiAliasBox" HorizontalAlignment="Left" Height="23" Margin="335,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" VerticalContentAlignment="Center" TextChanged="TextChangedSave"/>
+                <Button Content="Chat" HorizontalAlignment="Left" Margin="496,53,0,0" VerticalAlignment="Top" Width="34" Height="23"/>
+                <Button Content="Chat" HorizontalAlignment="Left" Margin="496,27,0,0" VerticalAlignment="Top" Width="34" Height="23"/>
+                <Button Content="Chat" HorizontalAlignment="Left" Margin="496,1,0,0" VerticalAlignment="Top" Width="34" Height="23"/>
+                <Label Content="Rave #" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,104,0,0"/>
+                <TextBox x:Name="RaveNumBox" HorizontalAlignment="Left" Height="23" Margin="46,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" VerticalContentAlignment="Center" TextChanged="TextChangedSave"/>
+                <Button Content="Open" HorizontalAlignment="Left" Margin="148,107,0,0" VerticalAlignment="Top" Width="39" Height="23"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="46,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="445" TextChanged="TextChangedSave"/>
+                <Label Content="Link" HorizontalAlignment="Left" Margin="15,161,0,0" VerticalAlignment="Top" Height="23" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <Button Content="Open" HorizontalAlignment="Left" Margin="491,161,0,0" VerticalAlignment="Top" Width="39" Height="23"/>
+                <Label Content="IcM #" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,130,0,0" Height="25"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="46,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" VerticalContentAlignment="Center" TextChanged="TextChangedSave"/>
+                <Button Content="Copy" HorizontalAlignment="Left" Margin="148,134,0,0" VerticalAlignment="Top" Width="39" Height="23"/>
+                <CheckBox Content="PG Engaged" HorizontalAlignment="Left" Margin="335,140,0,0" VerticalAlignment="Top" Checked="CheckBoxChangedSave"/>
+                <CheckBox Content="Customer Engaged" HorizontalAlignment="Left" Margin="335,120,0,0" VerticalAlignment="Top" Checked="CheckBoxChangedSave"/>
+                <CheckBox Content="Security Issue" HorizontalAlignment="Left" Margin="335,100,0,0" VerticalAlignment="Top" Checked="CheckBoxChangedSave"/>
+                <CheckBox Content="Political Sev A" HorizontalAlignment="Left" Margin="335,80,0,0" VerticalAlignment="Top" Checked="CheckBoxChangedSave"/>
+                <Label Content="DM @" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="2,78,0,0"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="46,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141" VerticalContentAlignment="Center" TextChanged="TextChangedSave"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Reminders" HorizontalAlignment="Left" Height="289" Margin="410,302,0,0" VerticalAlignment="Top" Width="508" >
+            <Grid HorizontalAlignment="Left" Height="269" VerticalAlignment="Top" Width="498" Margin="0,0,-2,-2">
+                <TextBlock HorizontalAlignment="Left" Margin="0,227,0,0" TextWrapping="Wrap" Text="Remind me at:" VerticalAlignment="Top"/>
+                <TextBox x:Name="ReminderBox" HorizontalAlignment="Left" Height="23" Margin="105,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" VerticalContentAlignment="Center"/>
+                <Button Content="Set" HorizontalAlignment="Left" Margin="372,242,0,0" VerticalAlignment="Top" Width="64" Height="23" Click="ReminderSetClick"/>
+                <ListView x:Name="ReminderView" HorizontalAlignment="Left" Height="222" Margin="0,5,0,0" VerticalAlignment="Top" Width="495" SelectionChanged="ReminderView_SelectionChanged" ScrollViewer.CanContentScroll="False" KeyDown="ReminderListDelete">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Reminder" Width="345" DisplayMemberBinding="{Binding ReminderText}"/>
+                            <GridViewColumn Header="Time" Width="143" DisplayMemberBinding="{Binding ReminderTime}"/>
+                            </GridView>
+                    </ListView.View>
+                </ListView>
+                <TextBlock HorizontalAlignment="Left" Margin="105,226,0,0" TextWrapping="Wrap" Text="Reminder:" VerticalAlignment="Top"/>
+                <xctk:TimePicker x:Name="ReminderTime" HorizontalAlignment="Left" Height="23" Margin="0,242,0,0" VerticalAlignment="Top" Width="100"/>
+                <Button Content="Help" HorizontalAlignment="Left" Margin="441,242,0,0" VerticalAlignment="Top" Width="54" Height="23"/>
+            </Grid>
+
+        </GroupBox>
+        <GroupBox Header="Contact Info" HorizontalAlignment="Left" Height="237" Margin="707,60,0,0" VerticalAlignment="Top" Width="211">
+            <Grid HorizontalAlignment="Left" Height="217" VerticalAlignment="Top" Width="201" Margin="0,0,-2,-2">
+                <Label Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-3,1,0,0" FontSize="10"/>
+                <TextBox x:Name="CxNameBox" HorizontalAlignment="Left" Height="23" Margin="41,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" VerticalContentAlignment="Center" TextChanged="TextChangedSave"/>
+                <Label Content="Phone" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-3,27,0,0" FontSize="10"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="41,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" VerticalContentAlignment="Center" TextChanged="TextChangedSave"/>
+                <Label Content="Email" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-3,53,0,0" FontSize="10"/>
+                <TextBox x:Name="CxEmailBox" HorizontalAlignment="Left" Height="24" Margin="41,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" VerticalContentAlignment="Center" TextChanged="TextChangedSave"/>
+                <Label Content="Additional Contacts" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-3,73,0,0"/>
+                <TextBox HorizontalAlignment="Left" Height="62" Margin="0,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" VerticalContentAlignment="Center" AcceptsReturn="True" TextChanged="TextChangedSave"/>
+                <RadioButton Content="Phone" HorizontalAlignment="Left" Margin="0,160,0,0" VerticalAlignment="Top" Checked="RadioButtonChangedSave"/>
+                <RadioButton Content="Email" HorizontalAlignment="Left" Margin="0,180,0,0" VerticalAlignment="Top" Checked="RadioButtonChangedSave"/>
+                <RadioButton Content="Skype" HorizontalAlignment="Left" Margin="0,200,0,0" VerticalAlignment="Top" Checked="RadioButtonChangedSave"/>
+            </Grid>
+        </GroupBox>
+        <TabControl HorizontalAlignment="Left" Height="287" Margin="10,304,0,0" VerticalAlignment="Top" Width="395" >
+            <TabItem Header=" OV ">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="Copy" HorizontalAlignment="Left" Margin="304,221,0,0" VerticalAlignment="Top" Width="75" Height="28"/>
+                    <Button Content="Copy All" HorizontalAlignment="Left" Margin="10,221,0,0" VerticalAlignment="Top" Width="75" Height="28" ToolTip="Press Ctrl+V to copy the next entry"/>
+                    <TextBox HorizontalAlignment="Left" Height="190" Margin="10,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="369" AcceptsReturn="True" TextChanged="TextChangedSave"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Overview:" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header=" BI ">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="Copy" HorizontalAlignment="Left" Margin="304,221,0,0" VerticalAlignment="Top" Width="75" Height="28"/>
+                    <Button Content="Copy All" HorizontalAlignment="Left" Margin="10,221,0,0" VerticalAlignment="Top" Width="75" Height="28" ToolTip="Press Ctrl+V to copy the next entry"/>
+                    <TextBox HorizontalAlignment="Left" Height="190" Margin="10,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="369" AcceptsReturn="True" TextChanged="TextChangedSave"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Business Impact:" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header=" CS ">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="Copy" HorizontalAlignment="Left" Margin="304,221,0,0" VerticalAlignment="Top" Width="75" Height="28"/>
+                    <Button Content="Copy All" HorizontalAlignment="Left" Margin="10,221,0,0" VerticalAlignment="Top" Width="75" Height="28" ToolTip="Press Ctrl+V to copy the next entry"/>
+                    <TextBox HorizontalAlignment="Left" Height="190" Margin="10,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="369" AcceptsReturn="True" TextChanged="TextChangedSave"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Current Status:" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header=" AP ">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="Copy" HorizontalAlignment="Left" Margin="304,221,0,0" VerticalAlignment="Top" Width="75" Height="28"/>
+                    <Button Content="Copy All" HorizontalAlignment="Left" Margin="10,221,0,0" VerticalAlignment="Top" Width="75" Height="28" ToolTip="Press Ctrl+V to copy the next entry"/>
+                    <TextBox HorizontalAlignment="Left" Height="80" Margin="10,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="369" AcceptsReturn="True" TextChanged="TextChangedSave"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,24,0,0" TextWrapping="Wrap" Text="Microsoft:" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Height="80" Margin="10,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="369" AcceptsReturn="True" TextChanged="TextChangedSave"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,120,0,0" TextWrapping="Wrap" Text=":" VerticalAlignment="Top"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Action Plan:" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header=" MS Internal ">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="Copy" HorizontalAlignment="Left" Margin="304,221,0,0" VerticalAlignment="Top" Width="75" Height="28"/>
+                    <Button Content="Copy All" HorizontalAlignment="Left" Margin="10,221,0,0" VerticalAlignment="Top" Width="75" Height="28" ToolTip="Press Ctrl+V to copy the next entry"/>
+                    <TextBox HorizontalAlignment="Left" Height="190" Margin="10,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="369" AcceptsReturn="True" TextChanged="TextChangedSave"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="MS Internal:" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <GroupBox Header="Made Contact" HorizontalAlignment="Left" Height="80" Margin="923,60,0,0" VerticalAlignment="Top" Width="242" >
+            <Grid HorizontalAlignment="Left" Height="63" Margin="0,0,-2,0" VerticalAlignment="Top" Width="232">
+                <Button Content="Call" HorizontalAlignment="Left" Margin="9,10,0,0" VerticalAlignment="Top" Width="67"/>
+                <Button Content="Email" HorizontalAlignment="Left" Margin="9,33,0,0" VerticalAlignment="Top" Width="67"/>
+                <Button Content="WebEx" HorizontalAlignment="Left" Margin="81,10,0,0" VerticalAlignment="Top" Width="68"/>
+                <Button Content="Skype" HorizontalAlignment="Left" Margin="81,33,0,0" VerticalAlignment="Top" Width="68"/>
+                <Button Content="Other" HorizontalAlignment="Left" Margin="154,33,0,0" VerticalAlignment="Top" Width="67"/>
+                <Button Content="Conf." HorizontalAlignment="Left" Margin="154,10,0,0" VerticalAlignment="Top" Width="67"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Resource Chase" HorizontalAlignment="Left" Height="152" Margin="923,145,0,0" VerticalAlignment="Top" Width="242" >
+            <Grid HorizontalAlignment="Left" Height="131" VerticalAlignment="Top" Width="232" Margin="-1,0,-1,-1">
+                <Button Content="Email" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Margin="10,10,0,0"/>
+                <Button Content="Template" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Margin="10,33,0,0"/>
+                <CheckBox Content="DM" HorizontalAlignment="Left" Margin="10,59,0,0" VerticalAlignment="Top"/>
+                <CheckBox Content="M1" HorizontalAlignment="Left" Margin="52,59,0,0" VerticalAlignment="Top"/>
+                <CheckBox Content="M2" HorizontalAlignment="Left" Margin="10,79,0,0" VerticalAlignment="Top"/>
+                <CheckBox Content="CSS" HorizontalAlignment="Left" Margin="52,79,0,0" VerticalAlignment="Top"/>
+            </Grid>
+        </GroupBox>
+        <Label Content="6-hour due at:" HorizontalAlignment="Left" Margin="306,39,0,0" VerticalAlignment="Top" Height="26" Width="86"/>
+        <xctk:TimePicker HorizontalAlignment="Left" Height="23" Margin="392,42,0,0" VerticalAlignment="Top" Width="103" Background="#FFD37474"/>
+        <ContentControl Content="" HorizontalAlignment="Left" Margin="1170,60,0,0" VerticalAlignment="Top" Height="237" Width="732"/>
+    </Grid>
+</Window>
